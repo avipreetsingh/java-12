@@ -30,3 +30,43 @@ Scanner input = new Scanner(System.in);
        String name1 = input.next();
        System.out.println("you entered: " + name + " " + name1);
        
+       *****projectclass***
+        Scanner input = new Scanner(System.in);
+       
+       int DiscountRate;
+       
+       int originalprice;
+       
+       int AmountSaved;
+       
+       int SalePrice;
+       
+       double Tax;
+       
+       double TotalPrice;
+       
+       double c;
+       c = .065;
+       
+       System.out.println("please enter itemname:");
+       
+      String itemname = input.next();
+      
+       System.out.println("please enter discountRate:");
+       
+       DiscountRate = input.nextInt();
+       
+       System.out.println("please enter originalprice:");
+       
+       originalprice = input.nextInt();
+       
+       AmountSaved = originalprice * DiscountRate/100;
+       
+       SalePrice = originalprice - AmountSaved;
+       
+       Tax =  SalePrice * c ;
+       
+       TotalPrice = SalePrice + Tax;
+       
+       System.out.println("TotalPrice :" + TotalPrice);
+       
