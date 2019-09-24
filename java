@@ -23,3 +23,10 @@
         sum = a + b;
         System.out.println("The sum of :" + a + "  and  " + b + "  is " + sum);
         
+****string****8
+Scanner input = new Scanner(System.in);
+       System.out.println("Please enter your name");
+       String name = input.next();
+       String name1 = input.next();
+       System.out.println("you entered: " + name + " " + name1);
+       
