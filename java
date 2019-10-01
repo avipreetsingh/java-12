@@ -70,3 +70,44 @@ Scanner input = new Scanner(System.in);
        
        System.out.println("TotalPrice :" + TotalPrice);
        
+       
+       *****function***********
+       
+       
+       import java.util.Scanner;
+
+/**
+ *
+ * @author 758401
+ */
+public class Hello {
+    public static double average(int x, int y){
+        double avg = (x+y/2.0);
+        return avg;
+    }
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("please enter two value");
+        int x = input.nextInt();
+        int y = input.nextInt();
+        double avg = average(x,y);
+        System.out.println("the average is " + avg);
+        
+         System.out.println("please enter two value");
+        int a = input.nextInt();
+        int b = input.nextInt();
+        double avg2 = average(a,b);
+        System.out.println("the average is " + avg2);
+        
+        
+        
+        // TODO code application logic here
+    }
+    
+}
+
+       
