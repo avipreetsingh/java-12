@@ -123,5 +123,16 @@ public class Hello {
             System.out.println(value1 + "is greater than" + value2);
         else
             System.out.println(value2 + "is greater than" + value1);
+            
+            ***second part****
+             if(value1>value2){
+           // System.out.println(value1 + "is greater than" + value2);
+            if(value1>0)
+                System.out.println(value1 + "is greater than" + value2 + " and positive");
+            else
+                System.out.println(value1 + "is greater than" + value2 + " and negative");
+        }       
+        else
+            System.out.println(value2 + "is greater than" + value1);
         
        
