@@ -110,4 +110,18 @@ public class Hello {
     
 }
 
+***********larger value*********
+ Scanner input = new Scanner(System.in);
+        // TODO code application logic here
+        System.out.println("Please enter first value");
+        int value1;
+        value1 = input.nextInt();
+        System.out.println("Please enter the second value");
+        int value2;
+        value2 = input.nextInt();
+        if(value1>value2)
+            System.out.println(value1 + "is greater than" + value2);
+        else
+            System.out.println(value2 + "is greater than" + value1);
+        
        
