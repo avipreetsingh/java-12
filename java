@@ -134,5 +134,21 @@ public class Hello {
         }       
         else
             System.out.println(value2 + "is greater than" + value1);
+ 
+ 
+ ***********if else if statment*******
+ Scanner input = new Scanner(System.in);
+        System.out.println("enter the score");
+        double score = input.nextDouble();
         
+        if(score<=60)
+            System.out.println("grade F");
+        else if(score<=70)
+            System.out.println("grade D");
+        else if(score<=80)
+            System.out.println("grade B");
+        else if(score<=90)
+            System.out.println("grade A");
+        else
+            System.out.println("grade A");
        
