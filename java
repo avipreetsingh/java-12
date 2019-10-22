@@ -137,6 +137,7 @@ public class Hello {
  
  
  ***********if else if statment*******
+ 
  Scanner input = new Scanner(System.in);
         System.out.println("enter the score");
         double score = input.nextDouble();
@@ -151,4 +152,80 @@ public class Hello {
             System.out.println("grade A");
         else
             System.out.println("grade A");
+            
+            
+            ***************loops*********
+            Scanner input = new Scanner(System.in);
+        System.out.println("The profgram calculate the total of five numbers");
+        int total =0;
+        for(int count =1;count<=5; count++){ 
+            System.out.println("please enter a number");
+            int number = input.nextInt();                    
+            total = total + number;        
+        }
+        System.out.println("the total is"+total);
+        System.out.println("------------------------------------");
+        total =0;
+        int count =0;
+        while(count<5){            
+            System.out.println("please enter a number");
+            int number = input.nextInt();                    
+            total = total + number;
+            ++count;
+        }
+        System.out.println("the total is"+total);
+        System.out.println("------------------------------------");
+        count =1;
+        total =0;
+        do{
+            System.out.println("please enter a number");
+            int number = input.nextInt();                    
+            total = total + number;  
+            ++count;
+        }while(count<=5);
+        
+        
+    }
+    *********************************************
+     /* Scanner input = new Scanner(System.in);
+        int count = 0;
+        while(count<10){
+            System.out.println(count + "welcome");
+            ++count;
+        }
+        String s="yes";
+        System.out.println("do you want to add number ");
+        s =input.next();
+        int sum =0;
+        while (s=="yes"){
+            System.out.println("please enter the number");
+            int nbr = input.nextInt();
+            sum = sum +nbr;
+            System.out.println("do you want to add number");*/
+       /*int count =1;
+       int sum =0;
+       while (count<=10){
+           sum = sum +count;
+           ++count;
+        }
+       System.out.println(sum);
+       
+        count =1;
+        sum=0;
+       do{
+           sum = sum +count;
+           ++count;
+       }
+       while(count<=10);*/
+      /* int sum =0;
+       for(int i=0;i<=10;++i){
+           sum = sum +i;
+       }*/
+      /* int sum = 0;
+        System.out.println(sum);
+       for(int i=10 ; i>0;--i){
+           sum = sum +i;
+       }
+        System.out.println(sum);*/
+    ********************************************
        
