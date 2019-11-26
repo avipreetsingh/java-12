@@ -300,5 +300,23 @@ public class Hello {
     ++count;
     for(int i=0; i<count; i++)
         System.out.println(a[i]);
+        
+        
+ **********       
+        
+  Scanner input = new Scanner(System.in);
+    final int SIZE = 100;
+    int [] a = new int[100];
+    int count=0;
+    System.out.println("please enter a  number -1 is quit");
+    int number = input.nextInt();
+    
+    while ((number!=0) && (count<SIZE)) {
+        a[count]=number;
+        ++count;
+    System.out.println("please enter a  number -1 is quit");
+     number = input.nextInt();
+            
+        
 
        
