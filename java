@@ -308,13 +308,13 @@ public class Hello {
     final int SIZE = 100;
     int [] a = new int[100];
     int count=0;
-    System.out.println("please enter a  number -1 is quit");
+    System.out.println("please enter a  number (-1 is quit");
     int number = input.nextInt();
     
     while ((number!=0) && (count<SIZE)) {
         a[count]=number;
         ++count;
-    System.out.println("please enter a  number -1 is quit");
+    System.out.println("please enter a  number (-1 is quit");
      number = input.nextInt();
             
         
