@@ -266,6 +266,21 @@ public class Hello {
                System.out.printf("the element with index %d is equal to searched value \n",i);
               break;
            }
+           String [] FN = new String[2];
+       String [] LN = new String[2];
+       String [] CD = new String[2];
+       
+       for(int i=0; i<FN.length; i++){
+           
+       
+       System.out.println("enter the first name: ");
+       FN[i] = input.nextLine();
+       
+       System.out.println("enter the last name: ");
+       LN[i] = input.nextLine();
+       
+       System.out.println("enter the course code name: ");
+       CD[i] = input.nextLine();
     
     }  
 }
