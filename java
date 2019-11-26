@@ -228,4 +228,46 @@ public class Hello {
        }
         System.out.println(sum);*/
     ********************************************
+    
+    ***********Arrays***********
+     {
+       int [] A = {45,52,63,41,87};
+       int [] B = new int[4];
+       B[0]=45;
+       B[1]=32;
+       B[2]=32;
+       B[3]=96;
+       
+        
+               
+       
+       for(int i=0; i<A.length;i++)
+           System.out.println(A[i]);
+       
+       
+       for(int i=0; i<B.length;i++)
+       System.out.println(B[i]);
+       
+       int sum =0;{
+         for(int i=0; i<A.length;i++)
+           sum= sum+A[i];
+           System.out.println(sum);
+         
+              
+               
+       }
+       double avg = sum/A.length;
+       System.out.println(avg);
+      
+       int [] C= {12,56,78,65,52};
+       int search = 12;
+       for(int i=0; i<C.length; i++)
+           if (C[i]==search){
+               System.out.printf("the element with index %d is equal to searched value \n",i);
+              break;
+           }
+    
+    }  
+}
+
        
