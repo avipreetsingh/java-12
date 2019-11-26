@@ -281,6 +281,7 @@ public class Hello {
        
        System.out.println("enter the course code name: ");
        CD[i] = input.nextLine();
+       System.out.println("The Firstname is  "  + FN[i] + "\n The Lastname is  "  + LN[i] + "\n The Course Code is  " + CD[i] + ". ");
     
     }  
 }
