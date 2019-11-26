@@ -284,6 +284,21 @@ public class Hello {
        System.out.println("The Firstname is  "  + FN[i] + "\n The Lastname is  "  + LN[i] + "\n The Course Code is  " + CD[i] + ". ");
     
     }  
+    
+    
 }
+
+ int [] a = new int[100];
+    int count=0;
+    a[0] = 1;
+    ++count;
+    
+    a[2] = 6;
+    ++count;
+    
+    a[3] = 9;
+    ++count;
+    for(int i=0; i<count; i++)
+        System.out.println(a[i]);
 
        
